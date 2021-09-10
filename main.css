@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url(images/background2.png);
+  max-width: fit-content;
+  
+     
+    background-size: cover;
+ 
+   
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* .mt{
+    height: 45px;
+    left: 825px;
+    position: fixed;
+
+    top: 0px;
+} */
+.menus {
+    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: rgb(0, 173, 179);
+      color: #fff;
+      position: absolute;
+      max-width: max-content;
+      left: 480px;
+   
+    }
+    .menus ul {
+        
+        font-family: 'Tangerine', cursive;
+        font-size: 29px;
+        list-style: none;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: rgb(155, 168, 168);
+        border-radius: 5px;
+    }
+    .menus ul li{
+        display: inline-flex;
+        height: 45px;
+        padding: 15px;
+        transition: 0.3s;
+    }
+    
+    .menus ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .menus ul li:hover{
+        background-color: rgb(214, 117, 177);
+        border-radius: 3px;
+        cursor: pointer;
+        
+    }
+    .dp-gens{
+        display: none;
+    }
+    .menus ul li:hover .dp-gens{
+        display: block;
+        position: absolute;
+        background: rgb(0, 173, 179);
+        margin-top: 30px;
+        margin-left: -15px;
+        
+    }
+    .menus ul li:hover .dp-gens ul li{
+        display: block;
+    }
+    
+    .dpgem{
+        position: relative;
+        top: -20px;
+        left: 150px;
+        display: block;
+        transition: 0.25s ease;}
+
+
+
+
+
+        .text{
+
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 16px;
+            position: relative;
+           left: 170px;
+           top: 200px;
+           color: rgb(128, 123, 127);
+        }
+        
+        
+         
+        .title{
+           
+            background-image: linear-gradient(90deg,rgb(255, 0, 221),rgb(0, 255, 234));
+            background-size: 0% 3px;
+            background-repeat:no-repeat;
+            background-position:left bottom;
+            text-decoration: none;
+            transition: 0.3s ease-out;
+            font-weight: 900;
+            
+            font-family: 'Tangerine', cursive;
+            font-size: 35px;
+            position: relative;
+            left: 170px;
+            top: 150px;
+            color: rgb(177, 173, 168);
+          
+         }
+         .title:hover{
+             background-size: 32% 3px;
+             transition: 0.3s ease-in;
+         }
+
+         .mywork{
+            
+            background-image: linear-gradient(90deg,rgb(255, 0, 221),rgb(0, 255, 234));
+            background-size: 0% 3px;
+            background-repeat:no-repeat;
+            background-position:left bottom;
+            text-decoration: none;
+            transition: 0.3s ease-out;
+            font-weight: 800;
+            
+            font-family: 'Tangerine', cursive;
+            font-size: 35px;
+            position: relative;
+            left: 170px;
+            color: rgb(177, 173, 168);
+              top: 100px;}
+
+         .mywork:hover{
+            background-size: 32% 3px;
+            transition: 0.3s ease-in;
+         }
+
+
+         
+         .uploads{
+
+            position: relative;
+            left: 170px;
+            top: 100px;
+        
+         }
+       .line{position: relative;
+        left: 170px;}
+
+         .heart{
+             position: absolute;
+             top: 60px;
+             left: 310px;
+             max-height: 100px;
+          
+}
+             .upload2{
+
+
+                 position: relative;
+                   left: 100px;
+                top: 700px;
+                right: 900px;
+  
+}     .pink{
+     
+    background-image: linear-gradient(90deg,rgb(255, 0, 221),rgb(0, 255, 234));
+            background-size: 0% 3px;
+            background-repeat:no-repeat;
+            background-position:left bottom;
+            text-decoration: none;
+            transition: 0.3s ease-out;
+            font-weight: 900;
+            font-family: 'Tangerine', cursive;
+            font-size: 35px;
+    position: relative;
+    left: 170px;
+    color: rgb(177, 173, 168);
+      top: 100px;}
+.pink:hover{background-size: 16% 3px;
+    transition: 0.3s ease-in;
+
+}
+.uploads2{
+
+    position:relative;
+    left: 170px;
+    top:100px;
+
+}
+
+.credit{font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+       position: relative;
+      left: 170px;
+      top: 100px;
+      color: rgb(128, 123, 127);
+
+}
+.otherheads{
+font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+position: relative;
+left: 170px;
+color: rgb(128, 126, 123);
+top: 150px;}
+
+.love{
+    position: relative;
+left: 700px;
+top: 400px;
+max-height: 100px;
+}
+
+
+
+
+
+
